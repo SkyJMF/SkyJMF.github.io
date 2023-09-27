@@ -1,0 +1,477 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Alata&family=Bevan&family=Courgette&family=Fugaz+One&family=Righteous&family=Roboto+Condensed:wght@300&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #e7e7e7;
+    padding: 10px;
+}
+header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1445px;
+ 
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+h2{
+    font-size: 35px;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+h3{ 
+    font-size: 30px;
+    color: #03398B;
+    font-family: 'Fugaz One', cursive;
+}
+
+.ppromo{
+    
+    font-size: 20px; 
+    color: #03398B;
+    font-family: 'Fugaz One', cursive;
+     
+}
+
+h4{
+   font-size: 60px;
+   color: white;
+   font-family: 'Courgette', cursive;
+   text-decoration: underline;
+   display: flex;
+   text-align: center;
+}
+
+h5{
+    font-size: 50px;
+    color: #03398B;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+.ppack{
+    font-size: 25px;
+    color: black;
+    font-family: 'Righteous', cursive;
+}
+
+.lp{
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+}
+
+.pric {
+    font-size: 40px;
+    font-family: 'Righteous', cursive;
+}
+
+.btingre button{
+    display: flex;
+    align-items: center;
+    background-color: #03398B;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#barrel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cate img{
+    width: 55px ;
+    height: 45px;
+}
+
+.barrapc{
+    padding: 10px;
+    width: 1445px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #03398B;
+    
+    flex-wrap: wrap
+}
+
+.portada{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.l1,.l2{
+    justify-self:center;
+    text-align: center;
+}
+
+
+
+.envi{
+    font-size: 30px;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 10px;
+    color: white;
+    padding: 2px;
+    
+}
+
+.paquetespop{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.paquetesp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #03398B;
+    border-radius: 25px;
+    padding: 0px 10px 20px 10px;
+    gap: 20px;
+}
+
+.paquete1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.viajes{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    grid-template-rows: min-content min-content min-content min-content min-content min-content;
+    row-gap: 15px;  
+}
+
+.pp{
+    font-size: 60px;
+    color: white;
+    font-family: 'Courgette', cursive;
+    text-decoration:underline;
+    display: flex;
+    text-align: center;
+}
+
+.imp{
+    text-align: center;
+}
+
+#btreser{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+} 
+
+.bt button{
+    background-color: #16b7f7;
+    display: flex;
+    gap: 30px;
+    row-gap: 0px;
+    padding: 0px 30px 0px 30px;
+    color: #03398B;
+    border-radius: 20px;
+    font-size: 40px;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ed{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center
+}
+
+.barend{
+    display: flex;
+    width: 1445px;
+    background-color: #cfcece;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.ng{
+    font-size: 25px;
+    color: #03398B;
+    font-family: 'Alata', sans-serif;
+    -webkit-text-stroke: #03398B 1px;
+}
+.grs{
+    font-size: 25px;
+    color: #717171;
+    font-family: 'Alata', sans-serif;
+}
+
+.lna{
+    display: flex;
+    justify-content: center;
+}
+
+.linea{
+    width: 1445px;
+    border-top: 5px solid #9c9c9c;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ct{
+    background-color: #cfcece;
+    border-radius: 0px 0px 20px 20px;
+    width: 1445px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ctl{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contactos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center;  
+}
+
+.log{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center;  
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.ctt{
+    font-size: 50px;
+    color: #03398B;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.regis{
+    display: grid;
+    grid-template-rows: min-content min-content min-content min-content min-content;
+    row-gap: 10px;
+}
+
+.regis .boton{
+    background-color: #33BEFA; 
+    font-size: 30px;
+    font-family: 'Acme', sans-serif;
+    color: #03398B;
+    letter-spacing: 5px;
+}
+
+.cont{
+    width: 100%;
+    background-color: #D9D9D9;
+    padding: 5px;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.pjmb{
+    display: none;
+}
+
+.btingremb{
+    display: none;
+}
+.logotipomb{
+    display: none;
+}
+.barramb{
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .btingremb{
+        display: block;
+    }
+    .logotipomb{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+
+    .pjmb{
+        display: block;
+        padding-top: 10px;
+    }
+
+    #btmen{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .btingremb img{
+        width: 55px;
+        height: 50px;
+    }
+    .btingremb button{
+        background-color: #03398B;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        border-radius: 10px;
+
+        .pingre{
+            font-size: 40px;
+            color: white;
+            font-family: 'Roboto Condensed', sans-serif; 
+            -webkit-text-stroke: white 1px;
+        }
+    }
+    .barramb{
+        display: flex;
+        justify-content: center;
+    }
+
+    .pjpc,.btingre, .logotipopc,.logotipopc img,.barrapc,.barrapc img,.btingre{
+        display: none;
+    }
+}
+
+/*------Menu burger-----*/
+
+@media screen and (max-width: 730px) {
+    .abrir,.cerrar{
+        display: block;
+    }
+
+    .nav{
+        opacity: 0;
+        visibility: hidden;
+    } 
+
+    .busqueda{
+        display: none;
+    }
+
+    .cerrar{
+        display: block;
+    }
+
+    .nav{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        background: #00000075;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: flex-start;
+        flex-wrap:wrap;
+    }
+
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+    } 
+
+    .nav-list li a{
+        font-size: 35px;
+        color: rgb(0, 0, 0);
+        font-family: 'Fugaz One', cursive;
+        text-decoration: none;
+    }
+    .nav-list li{
+        border: #03398B 2px solid;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .nav-list{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background: linear-gradient(#16b7f7,#ffffff); 
+        border-radius: 0px;
+    
+        text-align: center;
+        
+    }
+    .abrir{
+        background-color: #03398b;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+
+    .cerrar{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #03398B;
+        width: 100%;
+        font-size: 52px;
+        color: rgb(255, 255, 255);
+        font-family: 'Fugaz One', cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
